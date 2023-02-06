@@ -62,7 +62,7 @@ function App() {
         </div>
         <div>
           <h3>Calculated alcohol blood level is:</h3>
-          <output>{result.toFixed(2)}</output>
+          <output>{result.toFixed(2) + ' promilles'}</output>
         </div>
       </form>
     </>
