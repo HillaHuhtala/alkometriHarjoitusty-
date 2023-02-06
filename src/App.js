@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 
 function App() {
-  const [weight, setWeight] = useState(0);
+  const [weight, setWeight] = useState('undefined');
   const [bottles, setBottles] = useState(1);
   const [time, setTime] = useState(1);
   const [gender, setGender] = useState('female');
